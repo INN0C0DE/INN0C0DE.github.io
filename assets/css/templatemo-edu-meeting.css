@@ -766,7 +766,6 @@ banner
 
 }
 
-
 /*
 ---------------------------------------------
 services
@@ -882,6 +881,7 @@ services
 }
 
 
+
 /*
 ---------------------------------------------
 upcoming meetings
@@ -912,7 +912,7 @@ upcoming meetings
 
 .product{
 	overflow: hidden;
-	background: #ffffff;
+	background: burlywood;
 	color: #21201e;
 	text-align: center;
 	width: 400px;
@@ -937,7 +937,7 @@ upcoming meetings
 }
 
 .product:hover {
-	box-shadow: 5px 5px 10px #eeeeee;
+	box-shadow: 2px 3px 5px 7px #eeeeee;
 }
 
 .product img {
@@ -950,7 +950,7 @@ upcoming meetings
 	color: black;
 	display: inline-block;
 	text-decoration: none;
-	background-color: burlywood;
+	background-color:#cd853f;
 	padding: 1.2rem 3rem;
 	border-radius: 30px;
 	margin-top: 1rem;
@@ -960,7 +960,7 @@ upcoming meetings
 
 .product a:hover{
 	transform: scale(1.1);
-  background-color: #cd853f;
+  background-color: saddlebrown;
   color: white;
   transition: .5s;
 }
@@ -1239,7 +1239,6 @@ courses
 --------------------------------------------- 
 */
 
-
 section.our-courses {
   background-image: url(../images/burly1.avif);
   background-position: center center;
@@ -1263,7 +1262,6 @@ section.our-courses {
 .our-courses .item2 .down-content h4 {
   padding: 25px;
   font-size: 18px;
-  font-family: 'Jost', sans-serif;
   color: #1f272b;
   text-align: center; 
   border-bottom: 1px solid #eee;
@@ -1337,7 +1335,7 @@ section.our-courses {
 
 .our-courses .owl-nav .owl-prev:before {
   display: inline-block;
-  font-family:  'Jost', sans-serif;
+  font-family: 'FontAwesome';
   color: #1e1e1e;
   font-size: 25px;
   font-weight: 700;
@@ -1387,7 +1385,6 @@ section.our-courses {
   border-radius: 50%;
   line-height: 50px;
 }
-
 
 /*
 ---------------------------------------------
